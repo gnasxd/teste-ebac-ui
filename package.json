@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run --browser chrome",
+    "cy:dash" : "npx cypress run --record --key 9d7cfbf0-8d37-4294-a5f2-0fd6ba297abf"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gnasxd/teste-ebac-ui.git"
+    "url": "git+https://github.com/gnasxd/teste-ebac-ui.git"   
   },
   "keywords": [],
   "author": "",

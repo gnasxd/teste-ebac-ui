@@ -1,0 +1,23 @@
+[
+    {
+        "nomeProduto": "Atlas Fitness Tank",
+        "tamanho": "XS",
+        "cor": "Blue",
+        "quantidade": 3
+    },
+    {
+        "nomeProduto": "Abominable Hoodie",
+        "tamanho": "M",
+        "cor": "Green",
+        "quantidade": 5
+    },
+    {
+        "nomeProduto": "Orestes Fitness Short",
+        "tamanho": "34",
+        "cor": "Black",
+        "quantidade": 7
+    }
+    
+    
+
+]
