@@ -8,7 +8,7 @@ describe('Funcionalidade: Produtos', () => {
         produtosPage.visitarUrl()
     });
 
-    it('Deve selecionar um produto da lista', () => {
+    it('Deve selecionar um produto da lista', () => {       
         produtosPage.buscarProdutoLista('Abominable Hoodie')
         cy.get('#tab-title-description > a').should('contain', 'Descrição')
 
@@ -26,7 +26,7 @@ describe('Funcionalidade: Produtos', () => {
         cy.get('.product_title').should('contain', 'apollo running short')
     });
 
-    it('Deve adicionar produto ao carrinho', () => {
+    it.only('Deve adicionar produto ao carrinho', () => {
         let qtd = 7
         produtosPage.buscarProduto('Atlas Fitness Tank')
         produtosPage.addProdutoCarrinho('M', 'Blue', qtd)
@@ -36,7 +36,7 @@ describe('Funcionalidade: Produtos', () => {
     });
 
 
-    it.only('Deve adicionar produto ao carrinho buscando da massa de dados', () => {
+    it('Deve adicionar produto ao carrinho buscando da massa de dados', () => {
     cy.fixture('produtos').then(dados => {
         produtosPage.buscarProduto(dados[0].nomeProduto)
         produtosPage.addProdutoCarrinho(
