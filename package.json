@@ -5,10 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run --browser chrome",
-     "start /B npm start": "npx serverest",
-    "cy:dash" : "npx cypress run --record --key 9d7cfbf0-8d37-4294-a5f2-0fd6ba297abf",
-    "cy:run": "npx cypress run"
-    
+    "cy:dash" : "npx cypress run --record --key 9d7cfbf0-8d37-4294-a5f2-0fd6ba297abf"
   },
   "repository": {
     "type": "git",
