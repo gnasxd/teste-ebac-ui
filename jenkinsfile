@@ -24,6 +24,7 @@ pipeline {
                 bat '''
                     set NO_COLOR=1
                     npm test
+                    npm cy:run
                 '''
             }
         }
