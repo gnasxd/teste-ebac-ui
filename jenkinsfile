@@ -12,12 +12,7 @@ pipeline {
                 bat 'npm install'
             }
         }
-         stage('execuntando servidor') { 
-  steps( 
-    bat 'start /b npm start'
-      ) 
-  }
-
+      
         
         stage('Executar testes') {
             steps {
